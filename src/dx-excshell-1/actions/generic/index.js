@@ -39,7 +39,7 @@ async function main (params) {
       return errorResponse(400, errorMessage, logger)
     }
 
-    const result = parseInt(params.num1) + parseInt(params.num2);
+    const result = parseInt(params.num1) + parseInt(params.num2) + 1;
 
     
     return {
